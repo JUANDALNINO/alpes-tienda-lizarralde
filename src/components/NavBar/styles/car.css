@@ -1,0 +1,20 @@
+.containterCar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    margin-left: 20px;
+}
+
+.cartImage {
+    max-width: 30px;
+    margin-right: 6px;
+}
+
+.pCar {
+    color: aliceblue;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+}

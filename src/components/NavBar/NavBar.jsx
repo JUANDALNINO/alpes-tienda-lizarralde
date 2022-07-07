@@ -1,3 +1,5 @@
+import CartWidget from "./CartWidget";
+
 const NavBar = () => {
     return <>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -31,6 +33,7 @@ const NavBar = () => {
             <form class="d-flex" role="search">
               <button class="btn btn-warning" type="submit">LOGIN</button>
             </form>
+            <CartWidget class="carVar"/>
           </div>
         </div>
       </nav>
