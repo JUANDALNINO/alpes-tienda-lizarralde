@@ -1,13 +1,25 @@
 import './App.css';
-import ItemListContainer from './components/ItemContainer/ItemListContainer';
 import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemContainer/ItemListContainer';
+import ItemCount from './components/NavBar/ItemCount';
 
 function App() {
+
+  // Función para agregar al carrito
+  const onAdd = () => {
+    console.log("Agregando al carrito");
+  };
+
   return (
-    <div className="App">
-      <NavBar />
-      <ItemListContainer greeting="Bienvenido"/>
-    </div>
+    <>
+      <div className="App">
+        <NavBar />
+        <ItemListContainer greeting="Bienvenido" />
+        <ItemCount stock={5} initial={1} onAdd={onAdd} />
+      </div>
+    </>
+
+
   );
 }
 
