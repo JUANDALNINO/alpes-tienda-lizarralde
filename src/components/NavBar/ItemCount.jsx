@@ -22,20 +22,22 @@ export const ItemCount = ({stock, initial, onAdd}) => {
 
 
     return (
-        <div class="card">
-            <div class="card-body">
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-4">
-                    <button type="button" class="btn btn-primary" onClick={restar}>
-                        -
-                    </button>
-                    <p class="inline-text">{count}</p>
-                    <button type="button" class="btn btn-primary" onClick={sumar}>
-                        +
+        <div className= "container d-flex justify-content-center my-5">
+            <div className="card">
+                <div className="card-body">
+                    <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-4">
+                        <button type="button" className="btn btn-primary" onClick={restar}>
+                            -
+                        </button>
+                        <p className="inline-text">{count}</p>
+                        <button type="button" className="btn btn-primary" onClick={sumar}>
+                            +
+                        </button>
+                    </div>
+                    <button type="button" className="btn btn-success" onClick={onAdd}>
+                        Add to cart
                     </button>
                 </div>
-                <button type="button" class="btn btn-success" onClick={onAdd}>
-                    Add to cart
-                </button>
             </div>
         </div>
     )

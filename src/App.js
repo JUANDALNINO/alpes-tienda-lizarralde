@@ -7,7 +7,7 @@ function App() {
 
   // Función para agregar al carrito
   const onAdd = () => {
-    console.log("Agregando al carrito");
+    alert("Agregando al carrito");
   };
 
   return (

@@ -3,9 +3,9 @@ import './styles/car.css';
 
 const CartWidget = () => {
     return (
-        <div class="containterCar">
-            <img class="cartImage" src={cartImage} />
-            <p class="pCar">4</p>
+        <div className="containterCar">
+            <img className="cartImage" src={cartImage} />
+            <p className="pCar">4</p>
         </div>
     )
 }
