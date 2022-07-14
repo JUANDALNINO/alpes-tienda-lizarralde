@@ -30,7 +30,7 @@ const ItemListContainer = (prop) => {
         <div className="px-4 pt-5 my-5 text-center border-bottom">
             <h1 className="display-4 fw-bold titleGreeting">{prop.greeting}</h1>
             <div className="container">
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                     <ItemList items={items} />
                 </div>
             </div>

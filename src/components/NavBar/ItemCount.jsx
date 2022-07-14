@@ -22,9 +22,10 @@ export const ItemCount = ({stock, initial, onAdd}) => {
 
 
     return (
-        <div className= "container d-flex justify-content-center my-5">
+        <div className= "container d-flex justify-content-center my-1">
             <div className="card">
                 <div className="card-body">
+                    <h6 className="card-title">Cantidad</h6>
                     <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-4">
                         <button type="button" className="btn btn-primary" onClick={restar}>
                             -
